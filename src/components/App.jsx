@@ -5,6 +5,7 @@ import Statistics from './Statistics';
 import Section from './Section/Section';
 import Notification from './Notification';
 
+//cod refacut cu hooks
 const App = () => {
   const [feedback, setFeedback] = useState({
     good: 0,
